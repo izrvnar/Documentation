@@ -47,6 +47,54 @@ Many top down rogue lites have a similar concept of a player trying to survive i
 
 
 ## 1.4 Player Experience 
+- Main Gameplay Loop:
+  - Player must balance delivering packages with stealing packages (delivering packages is less risky, stealing packages makes you more money) 
+  - Rogue-like runs (ends if you cannot pay rent/expenses or get caught stealing) 
+
+- Day Night Cycle
+  - Player starts each day with a full endurance bar. They start in their apartment, where they may swap items. 
+  - During the day, deliver any amount of packages (recommend a minimum “quota” of packages needed to be delivered each day). Delivering packages drains Endurance/Energy. 
+  - After day shift, return to apartment to swap items. Can also visit shop to purchase upgrades on skill tree. 
+  - The player will leave items they wish to sell in a mailbox and once the cycle restarts they will given money for the items in the mailbox.
+  - Certain foods can restore endurance depending on the day. Example coffee gives a boost in the morning, but a soda will give a boost in the afternoon.
+  - Endurance is returned to full at end of the day, and all expenses are paid. Game is over if all bills cannot be paid in full. 
+  - The cycle restarts in two ways A) Player choice: Player can go to bed to restart the cycle. B) Player runs out of endurance. If endurance runs out, the player will be forced to go to bed.
+
+- Delivery and Theft Cycle
+  - This is the main gameplay mechanic which everything is based around. 
+  - The Packages have a weight and dimensions, which hint at its contents. However, the items is unknown until the player returns to their apartment at the end of the night shift. Each successful theft causes the player’s threat level to increase, and their threat level naturally decreases each day. 
+  - The items in the package range from valuable items, consumables (food, drinks, etc), and trash.
+  
+- Skill Tree
+  - Skill tree is a way for the player to customize their character to their play style. 
+  - They can choose to focus on one aspect of the game, or spread their points out to be more well rounded. Either styled more towards delivery or theft.
+  - Middle of the tree is balanced and more simple picks 
+  - [Skill tree Example](Skill%20Tree.png)
+  - Lower down the tree the stronger the abilities are almost in a way that they are overpowered.
+
+
+- Inventory Management  
+  -  Another major influence on the game is inventory management. The player will have limited space in their inventory, and will have to decide what items to keep and what items to sell.
+  -  The player has "special" slots that if endurance runs out they keep but lose the rest of the items in their inventory.
+  -  Weight and dimensions of the items will also play a factor in the inventory management.
+
+- Items 
+  - Items are a major part of the game. They can be used to restore endurance, increase stats, or be sold for money.
+  - Different levels of rarity affects the cost
+  - Some items will be consumable and some will give the player boosts. 
+  - Items are found inside packages but can also be earned from being a good delivery person.
+  - 
+- How to lose the Game 
+  -  If the player runs out of endurance, they will be forced to go to bed. 
+  -  If the player cannot pay their bills at the end of the day, the game is over. 
+  -  If the player’s threat level is too high, the player will get caught stealing and the game is over.
+
+
+ 
+
+
+
+
 # 2 Findings 
 ## 2.1 Project Scope
 ### 2.1.1 Project Constrains 
